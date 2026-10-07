@@ -1,0 +1,44 @@
+#investigação;
+#decidir a stack (stack = ferramenteas que vao ser utilizadas);
+#ARQUITETURA;
+
+#MISSOES/TASKS;
+
+#CODAR;
+#1, 70 DE ALTURA minima;
+#IDADE > OU = 14, MAMAE N DEIXA;
+#Imc entre 18,5 a 24,9;
+#peso;
+#altura;
+#idade;
+#imc = peso/(altura*altura).
+
+print("Quero ver se você consegue pular um muro com uma altura de 2 metros")
+altura_base=input("Qual sua altura")
+idade_base=input("Qual sua idade")
+peso_base=input("Qual seu peso?")
+
+
+def calcular():
+	altura=float(altura_base)
+	idade= float(idade_base)
+	peso=int(peso_base)
+	imc = peso/(altura**2)
+	if (imc >= 18.5) and (altura >= 1.70) and (idade >= 14):
+		print("Você consegue pular o muro")
+	elif (idade < 14):
+		print("Você é muito jovem para pular o muro")
+	elif (altura < 1.70):
+		print("você é pequenino")
+	elif (imc <=18.5):
+		print("Você não está saudavel o suficiente")
+	elif (idade > 59):
+		print("Está velho demais para isso")
+	else:
+		print("Você não consegue pular o muro")
+calcular()
+
+#obs, coloquei no bloco de notas para conseguir repassar para o repositorio meu treino do dia a dia e este codigos realizados no live code de uma oficina;
+#o objetivo que com as classificações minimas repassadas pelo professor da coude, ver se a pessoa conseguiria pular o muro;
+#para mais informações do evento terá uma postagem em meu linkedin;
+#Task solucionada com sucesso.

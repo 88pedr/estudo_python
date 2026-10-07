@@ -1,0 +1,19 @@
+CONS = 12
+
+def bom_dia():
+    if (CONS >= 6) and (CONS < 12):
+        print("Bom dia!")
+    elif (CONS >= 12) and (CONS < 18):
+        print("Boa tarde!")
+    elif (CONS >= 18) and (CONS < 6):
+        print("Boa noite")
+bom_dia()
+
+
+#não existe constante em python, ent pela boa pratica 
+# colocamos em maiusculo, em java se usa finale, 
+# e normalemnte se utiliza const nas outras linguagens;
+#podiamos escolher a linguagem que queriamos programar, e como estou iniciando ainda em programação e fazendo um curso de python, então foi minha escolha.
+#TASK basicamente é era ver a hora que estavamos no momento ou uma aleatoria, e verificar se o sistema tinha que responder bom dia,boa tarde ou boa noite.
+
+#TASK REALIZADA COM SUCESSO

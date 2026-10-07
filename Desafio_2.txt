@@ -1,0 +1,16 @@
+fruits= ["morango", "banana", "mamão"]
+
+def verificar_fruit():
+    if "abacaxi" in fruits:
+        print("A string 'abacaxi' existe no array")
+    elif "pera" in fruits:
+        print("A string 'pera' existe no array")
+    elif "pera" in fruits:
+        print("A string 'pera' existe no array")
+    else:
+        print("Nem pera nem abacaxi existem no array 'fruits'")
+
+verificar_fruit()
+
+#nos foi passado uma lista inicial, e seguindo as orientações da task, tinhamos que entregar o resultado;
+#Está task consegui solucionar.

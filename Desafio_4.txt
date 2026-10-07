@@ -1,0 +1,10 @@
+from itertools import count
+from xmlrpc.client import Boolean
+
+CRAZYARRAY = [True, 869, "oi", 71, False, 83, "35", True, 397, "js", False ]
+
+for x in enumerate(CRAZYARRAY):
+    
+#precisava pegar a lista, definir a quantidade que existe de um tipo de booleano, int, float, string
+
+#Não consegui finalizar a task, FALHA.
