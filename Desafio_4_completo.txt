@@ -1,0 +1,19 @@
+CRAZYARRAY = [True, 869, "oi", 71, False, 83, "35", True, 397, "js", False ]
+def test():
+    bola = 0
+    letra = 0
+    numero = 0
+    for x in CRAZYARRAY:
+        tipo = type(x)
+        if (tipo == bool):
+            bola += 1
+        elif (tipo == str):
+            letra += 1
+        else:
+            numero += 1
+    print(f"A quantidade de bool é {bola}, de string é {letra} e numero é {numero}")
+            
+        
+test()
+
+#JACKPOT
